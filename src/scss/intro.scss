@@ -1,0 +1,49 @@
+
+.main-header {
+
+    text-align: center;
+}
+
+.slider {
+
+    min-height: 300px;
+    text-align: center;
+    order: 2;
+  
+
+    @media (min-width: 768px) {
+
+        order:1;
+    }
+
+}
+
+.carousel > .carousel-indicators li {
+
+    background-color: $brown;
+}
+
+.carousel-inner img {
+    width: 100%;
+}
+
+
+
+.slider-description {
+
+    padding-top: 10px;
+    display: inline-block;
+
+
+}
+
+
+
+.slider-facts {
+
+    @media (min-width: 768px) {
+
+        order:2;
+    }
+}
+

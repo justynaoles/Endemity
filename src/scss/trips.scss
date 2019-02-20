@@ -1,0 +1,75 @@
+.trips {
+    padding-bottom: 50px;
+}
+
+.trips-header {
+
+    text-align: center;
+}
+
+.trips-offer  {
+
+    .btn {
+
+        color: $white;
+        margin: 20px 0;
+        width: 100%;
+        padding: 20px 0;
+        text-transform: uppercase;
+        &:hover {
+            color: $white;
+        }
+    }
+
+    .btn-green {
+        background-color: $btn-green;
+    }
+    
+    .btn-orange {
+        
+        background-color: $btn-orange;
+    }
+    
+    .btn-dblue {
+    
+        background-color: $btn-dblue;
+    }
+}
+
+.lemur, .tortoise{
+
+display:none;
+    
+}
+
+.koala {
+
+    background: url('../icons/koala.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 300px;
+    width: 100%;
+}
+
+.lemur {
+
+    background: url('../icons/lemur.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 300px;
+    width: 100%;
+}
+
+.tortoise {
+
+    background: url('../icons/tortoise.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 300px;
+    width: 100%;
+
+}
+.trip-btn {
+    display: block;
+}
+

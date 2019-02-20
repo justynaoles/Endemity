@@ -1,0 +1,55 @@
+.main-content {
+    text-align:center;
+    padding: 20px 0;
+}
+.content-paragraph {
+
+    padding-bottom: 15px;
+}
+
+.item {
+
+    background-color: $white;
+    min-height: 300px;
+    position: relative;
+
+    img {
+        position: absolute;
+        height: 100%;
+        width: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        
+    }
+}
+
+
+.item-name {
+    padding-top:10px;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+
+.item-description {
+
+    min-height: 300px;
+    opacity: 0;
+    transition:  2s ease;
+    margin-bottom: 0;
+    padding: 10px;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+ 
+  
+    &:hover {
+
+
+        opacity: 1;
+        background-color: rgba(0,0,0,0.9);
+    }
+}
+
+

@@ -1,0 +1,42 @@
+//local variables
+
+@import '_variables';
+
+
+//variables to override
+
+$theme-colors: (
+
+"primary": $brown
+);
+
+//bootsrap sass files
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+
+//body
+
+body {
+    background-color: $light-blue;
+}
+
+//container 
+
+.container {
+    
+    color: $white;
+}
+
+//fixed div
+
+.fixed-bg {
+
+    background: url('../img/map.png');
+    height: 350px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:  0 70%;
+    background-attachment:fixed;
+
+}

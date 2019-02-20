@@ -1,0 +1,46 @@
+@import 'variables';
+
+.header {
+ 
+    .logo {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+.ul {
+
+    text-align: center;
+    text-transform: uppercase;
+
+    @media (min-width: 768px) {
+        text-align: right;
+    }
+}
+
+#mainmenu {
+    align-self: flex-end;
+}
+
+.nav-link {
+
+    color: $white;
+    transition: color 1s;
+
+    &:hover{
+
+        color: $beage;
+    }
+}
+
+.navbar-toggler {
+    
+    .navbar-toggler-icon {
+      
+        background: url('../icons/menu.svg');
+        height: 40px;
+        width: 40px;
+
+    }
+
+}
